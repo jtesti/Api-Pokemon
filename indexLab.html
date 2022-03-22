@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./appLab.js" defer></script>
+    <link rel="stylesheet" href="./styleLab.css">
+    <title>Laboratorio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <img src="./assets/logo pokeball.png" alt="pokeball">
+                </div>
+                <ul class="menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./indexLab.html">Laboratorio</a></li>
+                    <li><a href="./indexGame.html">Juego</a></li>                    
+                </ul>
+            </nav>
+            
+        </header>
+    </div>
+    <div id="main">
+	
+        <div id="task_head">To Do List</div>
+        
+        <div id="task_form">
+        
+            <input type="text" id="task_input" placeholder="Nueva Tarea">
+        <br>
+            <button id="task_add" onclick="taskNew();">Añadir</button>
+        
+          <div id="task_error"></div>
+            
+        </div>
+        <div id="task_content">
+            <ul id="task_list">
+            
+            
+            </ul>
+        </div>
+        
+    </div>
+           
+</body>
+</html>

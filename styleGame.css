@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to right, #d13f3f, #f3b6b6);
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(170, 101, 10);
+    border: 10px solid rgb(170, 101, 10);
+  }
+  
+.navbar {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  }
+  
+.brand img {
+    width: 20%;
+  }
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+.menu li {
+    list-style: none;
+  
+  }
+
+.menu a {
+    color: gold;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+.menu a:hover {
+    background-color: gold;
+    color: rgb(192, 58, 58);
+  }

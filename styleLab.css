@@ -1,0 +1,92 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to right, #d13f3f, #f3b6b6);
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(170, 101, 10);
+    border: 10px solid rgb(170, 101, 10);
+  }
+  
+.navbar {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+  }
+  
+.brand img {
+    width: 10%;
+  }
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+.menu li {
+    list-style: none;
+  
+  }
+
+.menu a {
+    color: gold;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+.menu a:hover {
+    background-color: gold;
+    color: rgb(192, 58, 58);
+  }
+
+body{
+    background: linear-gradient(to right, #d13f3f, #f3b6b6);  
+    color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #main{
+    width:100%;
+  }
+  
+  #task_head
+  {
+    font-size:36px;
+    width:100%;
+    text-align:center;
+    margin:50px 0px 25px 0px;
+  }
+  
+  #task_form{
+    width:100%;
+    text-align:center;
+  }
+  
+  #task_input{
+    margin:0px 0px 20px 0px;
+    width:80%;
+    padding:10px 0px 10px 10px;
+  }
+  
+  #task_add{
+    width:30%;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:10px;
+  }
+  
+  #task_error{
+    margin:10px 0px 10px 0px;
+  }
+  
+  li{
+    list-style:none;
+    margin:10px 20px 10px -20px;
+    padding:10px 0px 10px 10px;
+    color:gold;
+  }
